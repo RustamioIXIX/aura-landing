@@ -609,7 +609,7 @@ h1{margin:16px auto 0;max-width:15ch;font-size:clamp(30px,4.2vw,48px);line-heigh
 
 @media (max-width:760px){
   .container{padding:14px}
-  .topbarSticky{top:10px;padding:12px 14px}
+  .topbarSticky{top:8px;padding:10px 12px;margin-bottom:14px}
   .menuToggle{display:inline-flex}
   .navPanel{
     position:fixed;
@@ -635,7 +635,7 @@ h1{margin:16px auto 0;max-width:15ch;font-size:clamp(30px,4.2vw,48px);line-heigh
   .navLinks{display:grid;gap:10px}
   .navLinks a{padding:12px 14px}
   .btnTop,.heroActions .btn,.cta .btn,.pricingCta .btn,.modalActions .btn{width:100%}
-  .heroMain{padding:54px 18px 28px}
+  .heroMain{padding:42px 18px 26px}
   .heroActions{flex-direction:column;align-items:stretch}
   .feature,.pricing,.cta,.comparison,.faq,.trust{padding:18px}
   .workflowGrid,.trustGrid{grid-template-columns:1fr}
@@ -646,7 +646,9 @@ h1{margin:16px auto 0;max-width:15ch;font-size:clamp(30px,4.2vw,48px);line-heigh
   .modalCard{width:100%;padding:24px 20px 20px;border-radius:26px 26px 20px 20px}
   h1{max-width:14ch;font-size:clamp(28px,9vw,40px);line-height:1.06}
   .lead{font-size:15px}
-  .heroMock{height:460px;margin-top:24px}
+  .heroHighlights{margin-top:14px}
+  .heroActions{margin-top:18px}
+  .heroMock{height:460px;margin-top:18px}
   .heroMockFrame{inset:16px}
   .heroMockGrid{grid-template-columns:1fr;gap:12px;padding:12px}
   .mockStack,.mockBoard{padding:14px}
@@ -654,7 +656,10 @@ h1{margin:16px auto 0;max-width:15ch;font-size:clamp(30px,4.2vw,48px);line-heigh
 
 @media (max-width:420px){
   .container{padding:12px}
-  .heroMain{padding:46px 14px 22px}
+  .topbarSticky{top:6px;padding:10px 10px}
+  .heroMain{padding:34px 12px 20px}
+  .kicker{font-size:12px;padding:9px 11px}
+  .heroHighlight{font-size:12px;padding:7px 10px}
   .feature,.pricing,.cta,.comparison,.faq,.trust{padding:16px}
   .oldPrice{font-size:16px}
 }
