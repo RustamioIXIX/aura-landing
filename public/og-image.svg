@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#070B14"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C5CFF"/>
+      <stop offset="100%" stop-color="#32D4FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="180" cy="120" r="220" fill="#7C5CFF" opacity=".16"/>
+  <circle cx="1040" cy="120" r="200" fill="#32D4FF" opacity=".12"/>
+  <rect x="78" y="84" width="1044" height="462" rx="36" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.14)"/>
+  <rect x="118" y="126" width="64" height="64" rx="20" fill="url(#accent)"/>
+  <text x="212" y="172" fill="#FFFFFF" font-size="42" font-family="Arial, sans-serif" font-weight="700">AURA</text>
+  <text x="118" y="272" fill="#FFFFFF" font-size="64" font-family="Arial, sans-serif" font-weight="800">
+    Telegram и WhatsApp боты
+  </text>
+  <text x="118" y="352" fill="#FFFFFF" font-size="64" font-family="Arial, sans-serif" font-weight="800">
+    для автоматизации заявок
+  </text>
+  <text x="118" y="432" fill="#C9D3E3" font-size="30" font-family="Arial, sans-serif">
+    Больше обработанных обращений. Меньше ручной рутины.
+  </text>
+</svg>
